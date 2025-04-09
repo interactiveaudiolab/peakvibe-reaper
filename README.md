@@ -1,7 +1,7 @@
 ## What it is
 This is a custom build of the popular digital audio workstation REAPER that broadcasts the loudness 
 levels (in dB) of the currently-playing track over a local network using OSC. This is meant to be paired
-with the [PeakVibe](https://github.com/interactiveaudiolab/peakvibe-ios) iPhone app. PeakVibe captures 
+with the [PeakVibe iPhone app](https://github.com/interactiveaudiolab/peakvibe-ios). PeakVibe captures 
 the loudness levels being sent by REAPER over the local network and makes the iPhone vibrate, mapping 
 each loudness value to a corresponding haptic intensity on the iPhone in realtime. Using this setup, 
 the intensity of the loudness waveform is communicated by the vibration intensity of the iPhone’s 
