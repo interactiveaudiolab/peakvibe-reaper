@@ -9,13 +9,8 @@ haptic motor, letting the user feel the volume levels as one scrubs through the 
 the user to look at the waveform. This is helpful for blind and low vision (BVI) users and anyone else 
 that needs to scrub quickly through audio and find peak levels without listening and without looking at the waveform.
 
-## usage
 
-```bash
-git clone --recursive https://github.com/hugofloresgarcia/kiwi-reaper.git
-```
-
-## building
+## Building the source code
 
 ```bash
 mkdir build
@@ -23,3 +18,6 @@ cd build
 cmake .. -DCMAKE_BUILD_TYPE=Debug
 make -j install
 ```
+## Installing
+
+## Running with PeakVibe 
